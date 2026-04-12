@@ -1,0 +1,124 @@
+/* EXERCICE 1 */
+#selecteurs {
+    h1 {
+        color: red;
+    }
+    
+    .text {
+        color: blue;
+    }
+    
+    #title {
+        text-transform: uppercase;
+    }
+}
+/* ----------------------------------------------------------------------------- */
+
+/* EXERCICE 2 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 5px 5px ;
+}
+/* ----------------------------------------------------------------------------- */
+
+/* EXERCICE 3 */
+.container {
+    p {
+        color: green;
+    }
+}
+/* ----------------------------------------------------------------------------- */
+
+/* EXERCICE 4 */
+.container > p {
+    color: red;
+}
+/* ----------------------------------------------------------------------------- */
+
+/* EXERCICE 5 */
+section h2 + p  {
+    color : #8cd907;
+    font-size: 18px;
+    font-weight: 900;
+}
+/* ----------------------------------------------------------------------------- */
+
+/* EXERCICE 6 */
+section h2 ~ p  {
+    color : #d207d9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+}
+/* ----------------------------------------------------------------------------- */
+
+/* EXERCICE 7 */
+input[type="text"] {
+    width: 300px;
+    padding: 10px 15px ;
+    
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: #dff6fc;
+    color: #210fac;   
+}
+
+input[placeholder] {
+    color: red;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.507);
+}
+/* ----------------------------------------------------------------------------- */
+
+/* EXERCICE 8 */
+
+ul li:first-child:hover {
+    color: #08fa00;
+}
+
+ul li:first-child {
+    cursor: pointer;
+    color: #ff00f7;
+    list-style-type:circle;
+}
+
+ul li:last-child {
+    color: #fa0070;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* ----------------------------------------------------------------------------- */
+
+/* EXERCICE 9 */
+ul li:nth-child(even) {
+    color: grey;
+}
+
+ul li:nth-child(odd) {
+    color: black;
+}
+/* ----------------------------------------------------------------------------- */
+
+/* EXERCICE 10 */
+.card .description {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #fa0070;
+}
+
+.card p {
+    font-size: x-large;
+    color: rgb(147, 96, 35);
+}
+
+.card p:nth-child(3) {
+    cursor: pointer;
+}
+
+.card h3 {
+    color: #08fa00;
+    font-size: 45px;
+    font-weight: 100;
+}
+/* ----------------------------------------------------------------------------- */
