@@ -1,0 +1,60 @@
+/* Exercice 1 : les bases du texte */
+.paraExo1 {
+    color: yellowgreen;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* Exercice 2 : Gras, italique, transformation */
+.titreExo2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.paraExo2 {
+    font-style: italic;
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* Exercice 3 : Alignement du texte */
+.paraExo3 {
+    font-family:  sans-serif;
+    font-size: 16px;
+}
+
+.para1Exo3 {
+    text-align: left;
+}
+
+.para2Exo3 {
+    text-align: center;
+}
+
+.para3Exo3 {
+    text-align: right;
+}
+
+.para4Exo3 {
+    text-align: justify;
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* Exercice 4 : Espacement entre les lignes */
+.paraExo4 {
+    line-height: 30px;
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* Exercice 5 : Espacement des lettres et mots */
+.titreExo5 {
+    letter-spacing: 10px;
+}
+
+.paraExo5 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 16px;
+
+}
+/* -------------------------------------------------------------------------------------- */
