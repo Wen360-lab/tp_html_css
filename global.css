@@ -6,7 +6,7 @@
     border: none;
     padding: 10px 25px;
     border-radius: 15px;
-    background-color: #f38f2b;
+    background-color: #e72a1d;
 }
 
 .btn a {
@@ -15,4 +15,8 @@
     font-weight: 700;
     font-size: 18px;
     color: #ffffff;
+}
+
+.btn:hover {
+        background-color: #e7641d;
 }
