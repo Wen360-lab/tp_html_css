@@ -6,6 +6,7 @@
 }
 /* -------------------------------------------------------------------------------------- */
 
+
 /* Exercice 2 : Gras, italique, transformation */
 .titreExo2 {
     text-transform: uppercase;
@@ -17,9 +18,9 @@
 }
 /* -------------------------------------------------------------------------------------- */
 
+
 /* Exercice 3 : Alignement du texte */
 .paraExo3 {
-    font-family:  sans-serif;
     font-size: 16px;
 }
 
@@ -40,11 +41,13 @@
 }
 /* -------------------------------------------------------------------------------------- */
 
+
 /* Exercice 4 : Espacement entre les lignes */
 .paraExo4 {
     line-height: 30px;
 }
 /* -------------------------------------------------------------------------------------- */
+
 
 /* Exercice 5 : Espacement des lettres et mots */
 .titreExo5 {
@@ -53,8 +56,158 @@
 
 .paraExo5 {
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
     word-spacing: 16px;
+    
+}
+/* -------------------------------------------------------------------------------------- */
 
+
+/* Exercice 6 : Soulignement et décoration */
+.lienExo5 {
+    text-decoration: none;
+}
+
+.lienExo5:hover {
+    text-decoration: underline;
+}
+/* -------------------------------------------------------------------------------------- */
+
+
+/* Exercice 7 : Ombre sur le texte */
+.titreExo7 {
+    text-shadow: 1px 1px 0.8px black;
+    color: green;
+}
+/* -------------------------------------------------------------------------------------- */
+
+
+/* Exercice 8 :  Police personnalisée (Google Fonts) */
+body {
+    font-family: Sora, sans-serif;
+}
+/* -------------------------------------------------------------------------------------- */
+
+
+/* Exercice 9 : Hiérarchie typographique */
+.pageExo9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+.titreExo9 {
+    margin: 20px 0;
+    font-family: Sora, sans-serif;
+    font-size: 50px;
+    text-shadow: 1px 1px 0.5px black;
+    color: #f29018;
+}
+
+.sousTitreExo9 {
+    margin: 0 0 30px 0 ;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 1px 1px 0.4px black;
+    color: #f29018;
+}
+
+.paraExo9 {
+    margin: 10px 250px;
+    text-align: justify;
+    font-family: sans-serif;
+    color: #cf7609;
+    line-height: 25px;
+}
+/* -------------------------------------------------------------------------------------- */
+
+
+/* Exercice 10 : Carte stylée (mini projet) */
+.cardExo10 {
+    width: 770px;
+    height: 450px;
+    background-image: linear-gradient(45deg, #ffe53b, #ff2525, #e8850b) ;
+    display: flex;
+    position: relative;
+    left: 300px;
+    border-radius: 10px;
+    box-shadow: 1.5px 2.5px 0.7px #424141c8;
+    border: 0.5px solid #cf7609;
+}
+
+.profil {
+    width: 45%;
+    background-image: linear-gradient(40deg,#ff2525, #e8850b, #ffe53b) ;
+    border: 1.5px solid #fff2f24e;
+    border-radius: 10px;
+    margin: 15px 0 15px 15px;
+}
+.container {
+    width: 55%;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titreCardExo10 {
+    margin: 8px 0 15px 0 ;
+    font-size: 35px;
+    text-align: center;
+    color: beige;
+    text-shadow: 1px 0.5px 0.4px black;
+    
+}
+
+.sousTitreCardExo10 {
+    margin: 0 0 35px 0;
+    text-align: center;
+    text-shadow: 1px 0.5px 0.4px black;
+    font-size: 25px;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 8px;
+}
+
+.paraCardExo10 {
+    margin: 0 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: beige;
+    text-shadow:  0.5px 0.5px 0.4px black;
+    line-height: 25px;
+}
+
+.linkCardExo10 {
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Sora, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(255, 171, 2);
+    text-shadow:  0.1px 0.2px 0.4px black;
+    background-color: #fff;
+
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 125px;
+}
+
+.linkCardExo10:hover {
+    color: #ffffff;
+    background-color: #e8850b;   
 }
 /* -------------------------------------------------------------------------------------- */
