@@ -1,0 +1,19 @@
+/* Exercice 1 : Couleur de fond simple */
+.boxExo1 {
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Exercice 2 : Image de fond */
+.imgFondExo2 {
+    margin: 20px 0;
+    width: 400px;
+    height: 200px;
+    background-image: url('../Assets/images/coucherSoleil.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
