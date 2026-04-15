@@ -7,7 +7,7 @@
 /* ------------------------------------------------------------------------------------------------------------------- */
 
 
-/* Exercice 2 : Image de fond */
+/* Exercice 2 & 3 : Image de fond & Image de fond responsive */
 .imgFondExo2 {
     margin: 20px 0;
     width: 400px;
@@ -15,5 +15,129 @@
     background-image: url('../Assets/images/coucherSoleil.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Exercice 4 : Dégradé simple */
+.boxExo4 {
+    width: 600px;
+    height: 300px;
+    background-image: linear-gradient(to right, red, yellow);
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Exercice 5 : Dégradé avancé */
+.boxExo5 {
+    margin: 20px 0;
+    width: 600px;
+    height: 300px;
+    background-image: linear-gradient(45deg, #fdfca5, #ff5631, #634aff);
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Exercice 6 : Bordure simple */
+.bordureExo6 {
+    width: 450px;
+    height: 200px;
+    border: 2px solid black;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Exercice 7 : Bordures différentes */
+.borduresExo7 {
+    margin: 20px 0;
+    width: 450px;
+    height: 200px;
+    border-top: 2px solid red;
+    border-right: 2px solid green;
+    border-bottom: 2px solid blue;
+    border-left: 2px solid yellow;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Exercice 8 : Bordures arrondies */
+.cardExo8 {
+    margin: 20px 0;
+    width: 500px;
+    height: 300px;
+    border: 2px solid yellowgreen;
+    border-radius: 20px;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Exercice 9 : Cercle parfait */
+.cercleExo9 {
+    width: 150px;
+    height: 150px;
+    background-color: #fc9c01;
+    border-radius: 50%;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Exercice 10 : Carte stylée (niveau avancé) */
+.cardExo10 {
+    margin: 45px 0;
+    width: 400px;
+    height: 450px;
+    border: 1.5px solid #bb00ff;
+    border-radius: 20px;
+}
+
+.imageExo10 {
+    width: inherit;
+    height: 220px;
+    background-image: url('../Assets/images/coucherSoleil.jpg');
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.titreExo10 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #ca01fc;
+    margin: 18px 0 15px 0;
+    padding: 0 20px;
+}
+
+.paraExo10 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0  20px;
+    line-height: 25px;
+    text-align: justify;
+    color: #d691f0;
+}
+
+.btnExo10 {
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 27px 25px;
+    border-radius: 15px;
+    border: none;
+    background-image: linear-gradient(45deg, #d691f0, #634aff);
+    cursor: pointer;
+}
+
+.btnExo10:hover {
+    background-image: linear-gradient(45deg, #634aff, #d691f0);
 }
 /* ------------------------------------------------------------------------------------------------------------------- */
