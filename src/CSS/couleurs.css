@@ -1,0 +1,62 @@
+/* Exercice 1 : Couleur de texte simple */
+p {
+    color: red;
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Exercice 2 : Couleur de fond */
+body {
+    background-color: #a7a7ff;
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Exercice 3 : Couleurs nommées vs HEX */
+.boxExo3 {
+    margin: 20px 0;
+    width: 400px;
+    height: 100px;
+}
+
+.box1Exo3 {
+    background-color: blue;
+}
+
+.box2Exo3 {
+    background-color: #3498db;
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Exercice 4 : RGB */
+/* h1 {
+    color: rgb(255, 0, 0);
+} Pour obtenir du rouge*/
+
+/* h1 {
+    color: rgb(0, 255, 0);
+} Pour obtenir du vert*/
+
+h1 {
+    color: rgb(0, 0, 255);
+} 
+/* Pour obtenir du bleu */ 
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Exercice 5 : Transparence avec RGBA */
+.boxExo5 {
+    width: 450px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.5)
+}
+
+h3 {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
