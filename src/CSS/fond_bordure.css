@@ -109,12 +109,14 @@
 .titreExo10 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
+    text-shadow: 0.4px 0.4px 0.5px black;
     color: #ca01fc;
     margin: 18px 0 15px 0;
     padding: 0 20px;
 }
 
 .paraExo10 {
+    text-shadow: 0.4px 0.4px 0.5px #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 16px;
