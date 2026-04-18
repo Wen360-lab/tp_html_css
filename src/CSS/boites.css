@@ -192,4 +192,17 @@ Leur marges vont fusionner au lieu de s'additionner */
     background-color: #0755a4;
     color: white;
 }
+.containerBtnPrix {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 0;
+}
+
+.prix {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 0;
+}
 /* ------------------------------------------------------------------------------------------------------------ */
