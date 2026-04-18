@@ -1,0 +1,195 @@
+/* Exercice 1 & 2 : Comprendre la structure & Box sizing*/
+.boxExo1 {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    
+    padding: 10px;
+    border: 5px solid black;
+    margin: 30px;
+
+    box-sizing: border-box;
+}
+    
+    /* Réponse à la question 1 Exercice 1:
+    La taille totale occupée par l'élément est de 230px/130px */
+    
+    /* Réponse à la question 1 Exercice 2:
+    Après l'ajout de la propriété CSS box-sizing 
+    à l'élément, la taille totale occupée par celui-ci est revenu à 200px/100px 
+    En effet, cette propriété permet d'effectuer le calcul de taille d'un élément
+    mis avec la valeur box border-box, l'élément calcul la taille totale de l'élément 
+    en excluant toutes les marges qu'il possède.*/
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+/* Exercice 3 : Padding asymétrique */
+.btnExo3 {
+    text-align: center;
+    padding: 10px 30px 5px 50px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+    color: #0d00ff;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+/* Exercice 4 : Margin collapsing */
+.containerExo4 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin : 35px;
+}
+
+.boxExo4 {
+    width: 350px;
+    height: 300px;
+    margin: 50px;
+}
+
+.box1 {
+    background-color: green;
+}
+
+.box2 {
+    background-color: #03ff03; 
+}
+
+/* Réponse à la question :
+L'espacement entre les deux div n'est pas égale à 100px 
+Car elles sont toutes en display : block, autrement dit 
+Leur marges vont fusionner au lieu de s'additionner */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+/* Exercice 5 : Centrage horizontal */
+.boxExo5 {
+    width: 330px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #0353ff;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+/* Exercice 6 : Bordures avancées */
+.cardExo6 {
+    width: 350px;
+    height: 300px;
+    background-color: #9203ff;
+    border: 2px solid black;
+    border-radius:10px;
+    padding: 20px;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+/* Exercice 7 : Débordement (overflow) */
+.boxExo7 {
+    background-color: #0755a4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #e1e0e3;
+    margin: 50px 0;
+    height: 100px;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+/* Exercice 8 : Box model et inline vs block */
+.spanExo8, .divExo8 {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+/* Exercice 9 :  Calcul de layout */
+.containerBoxExo9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxExo9 {
+    width: 33.33%;
+    padding: 20px;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+/* Exercice 10 :  Mini composant UI */
+.cardExo10 {
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 40px auto;
+    position: relative;
+    background: linear-gradient(to bottom, #38324D,#6B2F3C, #2A0D1B);
+}
+
+.imgExo10 {
+    width: inherit;
+    height: 100%;
+    background-image: url('../Assets/images/sonyHeadphones.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.containerTextExo10 {
+    position: relative;
+    bottom: 600px;
+    margin: 30px;
+}
+
+.titre {
+    font-size: 40px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto auto 350px auto;
+}
+
+.sous-titre {
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 0;  
+}
+
+.description {
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.btnExo10 {
+    margin: 10px 0;
+    padding: 10px 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 1px 1px 9px black;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btnExo10:hover {
+    background-color: #0755a4;
+    color: white;
+}
+/* ------------------------------------------------------------------------------------------------------------ */

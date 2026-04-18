@@ -9,10 +9,228 @@
 </head>
 <body>
     <main>
+        <!-- Exercice 1 — Comprendre la structure
+        
+        Crée une div avec :
+        
+        largeur : 200px
+        hauteur : 100px
+        fond : bleu
+        
+         Ajoute :
+        
+        padding: 20px
+        border: 5px solid black
+        margin: 30px
+        
+         Question : quelle est la taille totale occupée par l’élément ? 
 
+          Réponse à la question :   
+            La taille totale occupée par l'élément est de 230px/130px -->
 
+         <div class="boxExo1"></div>
+         <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+         
+            
+         
+        <!-- Exercice 2 — Box sizing
+         
+         Reprends l’exercice 1.
+         
+          Ajoute :
+         
+         box-sizing: border-box;
+         
+         Question : qu’est-ce qui change concrètement sur le rendu et pourquoi ? 
+        
+          Réponse à la question 1 Exercice 2:
 
+                Après l'ajout de la propriété CSS box-sizing 
+                à l'élément, la taille totale occupée par celui-ci est revenu à 200px/100px 
+                En effet, cette propriété permet d'effectuer le calcul de taille d'un élément
+                mis avec la valeur box border-box, l'élément calcul la taille totale de l'élément 
+                en excluant toutes les marges qu'il possède. -->
+        <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+        
+        
+        
+        <!-- Exercice 3 — Padding asymétrique
+        
+        Crée un bouton (button ou div) avec :
+        
+        texte centré
+        
+        Applique :
+        
+        padding: 10px 30px 5px 50px;
+        
+        Objectif : comprendre la logique top / right / bottom / left -->
 
+        <button class="btnExo3">Clic ici</button>
+        <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+        
+        
+        
+        <!-- Exercice 4 — Margin collapsing
+        
+        Crée deux div empilées verticalement :
+        
+        chacune avec margin: 50px
+        
+        Question : pourquoi l’espace entre les deux n’est pas 100px ? 
+
+        Réponse à la question :
+                L'espacement entre les deux div n'est pas égale à 100px 
+                Car elles sont toutes en display : block, autrement dit 
+                Leur marges vont fusionner au lieu de s'additionner-->
+
+        <div class="containerExo4">
+            <div class="boxExo4 box1"></div>
+            <div class="boxExo4 box2"></div>
+        </div>
+        <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+        
+        
+        
+        <!-- Exercice 5 — Centrage horizontal
+        
+        Crée une div de 300px de largeur.
+        
+        Centre-la horizontalement dans la page avec :
+        
+        margin: 0 auto;
+        
+        Question : pourquoi ça ne marche que dans certains cas ? -->
+
+            <!-- Réponse à la question :
+                Cette technique ne marche que dans certains cas car ... -->
+
+        <div class="boxExo5"></div>
+        <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+        
+        
+        
+        <!-- Exercice 6 — Bordures avancées
+        
+        Crée une carte (card) avec :
+        
+        border: 2px solid black
+        
+        Ajoute :
+        
+        border-radius: 10px
+        padding: 20px
+        
+        Objectif : comprendre l’impact visuel du box model sur les composants UI -->
+        <div class="cardExo6"></div>
+        <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+        
+        
+        
+        <!-- Exercice 7 — Débordement (overflow)
+        
+        Crée une div :
+        
+        hauteur : 100px
+        contenu texte très long
+        
+        Teste :
+        
+        overflow: hidden;
+        overflow: scroll;
+        overflow: auto;
+        
+        Analyse le comportement de chaque valeur 
+
+            Analyse de chaque valeur de la propriété CSS overflow 
+                overflow est une prpopriété CSS qui permet de gérer les débordements 
+                    -la vaeleur hidden elle, permet de recadrer le contenu qui déborde en le cachant;
+                    -la valeur scroll, permet au navigateur d'ajouter des barres de scroll près du contenu;
+                    -Enfin, la valeur auto, dit tout simplement que le srcoll et le masquage du contenu soient automatique-->
+        <div class="boxExo7">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat rem iusto neque placeat, explicabo tenetur soluta, vel, officiis suscipit architecto deserunt et maiores cum non doloremque cumque rerum incidunt consequuntur a? Perferendis incidunt velit culpa! Impedit adipisci autem hic saepe alias ratione eligendi veritatis enim ducimus harum laboriosam quis tempora ut, esse magnam. Accusantium adipisci provident alias error assumenda, animi veniam nemo molestias ipsum, saepe sint at quidem mollitia est cum velit minus laboriosam non beatae vel libero corrupti porro eos in? Dolore deleniti non accusamus placeat incidunt nemo alias possimus nesciunt necessitatibus excepturi quas corrupti unde numquam, fugiat cupiditate ratione? Expedita sint sapiente rerum inventore nam animi nesciunt minus cupiditate facere. Corrupti neque odit illo ducimus modi cumque voluptate accusantium veritatis ex odio! Incidunt veritatis ipsa doloribus ut? Culpa, praesentium! Ratione voluptatem totam ut incidunt nostrum est rerum sed officia iusto temporibus eius, voluptatum quas doloribus aperiam reiciendis consequuntur esse maxime iure soluta odio animi non? Dolore nam natus fuga! Delectus magni exercitationem corporis ducimus iure, laudantium possimus debitis expedita facere voluptas repellat provident quod sit quidem, sed ullam error dolore quas deleniti. Debitis aspernatur necessitatibus autem repellat inventore magni optio adipisci est deleniti ullam quos consectetur similique, aut doloribus perferendis sunt porro itaque fugit et! Voluptas, similique error suscipit alias nisi rerum cum laborum delectus sed iste dolorem id atque unde quaerat consequatur, hic ducimus facilis. Ratione itaque deleniti error incidunt id. Facere dolorum cum impedit dicta quae natus exercitationem beatae laboriosam, sed esse recusandae, aperiam ex soluta magni voluptatum numquam officia. Deserunt expedita iure nesciunt tempore possimus suscipit incidunt hic id delectus culpa, explicabo veritatis magni quasi nihil quae odit officia ratione repellat ea. At earum, cupiditate eum corrupti placeat vero culpa illum impedit illo nulla qui a? Ut fugit adipisci magni, doloribus laudantium error, ipsum quasi ex voluptates veniam accusantium iure consequatur sed officia expedita, quo repellat. Nisi fugit facere voluptas, qui delectus unde odio. Perferendis beatae porro molestiae illo atque nihil eligendi eveniet blanditiis et temporibus numquam perspiciatis iste maiores ullam necessitatibus ea voluptates debitis, rem consequuntur placeat aut, ad ex est tempora. Harum ea suscipit fuga mollitia nam adipisci! Explicabo ipsum vitae dolorem cumque, incidunt perspiciatis quibusdam fugiat qui eligendi voluptatibus, saepe repudiandae? Doloribus quaerat exercitationem amet magnam! Tempora facere ipsum corporis eveniet laborum, autem quam nemo. Incidunt, earum. Natus, beatae vero itaque aut quibusdam modi tempore. Tempore accusantium amet velit consectetur laboriosam laborum fuga possimus deleniti at molestias iusto consequuntur beatae, quisquam dolorum blanditiis nisi culpa nihil natus sit ipsam? Mollitia, ipsum velit soluta eius ab aliquid error praesentium consequatur, porro ducimus vitae voluptatum itaque nemo amet nihil pariatur officiis cumque unde odit. Cumque sequi voluptas repellendus consequuntur aliquid sed temporibus harum saepe, labore numquam aperiam voluptatibus corrupti veritatis est omnis molestiae quam? Fugit, iste animi laudantium eveniet consequatur molestias, a quis amet aliquid optio eligendi eius itaque, cumque quae explicabo dicta! Ducimus accusamus et aut? Doloremque molestias impedit quam error officia rerum obcaecati consectetur, molestiae est, et dolores. Maiores doloribus aut iure aspernatur cumque assumenda dolorum laudantium repellat soluta, recusandae quod labore maxime, temporibus ea. Magnam, aperiam ea enim non dolorum hic molestiae cupiditate eos labore nam temporibus quam adipisci impedit veniam facere vel possimus. Eligendi doloremque ratione at deleniti voluptas id. Soluta odit provident veniam id sequi aspernatur facilis cumque obcaecati error animi. Nisi consequatur quia delectus similique praesentium, voluptate earum quam ab natus quae ratione magni officiis rem ipsum distinctio maiores harum eos sequi beatae? Consequatur illum odit ut nulla, dolore ducimus error modi maiores accusantium officia tempora, at labore necessitatibus amet debitis similique. Iste atque praesentium numquam delectus voluptates, reprehenderit aut minus ratione iusto maiores, ipsam exercitationem facere veniam blanditiis omnis excepturi tenetur, magnam sequi molestias in est at non sunt! Facilis itaque ullam facere corrupti rem delectus atque nam. Aut nulla nostrum itaque sed iusto, distinctio ipsum. Maxime adipisci magnam eos iusto quo? Eaque natus repellendus magnam omnis? Voluptate sequi, corrupti neque nisi fugiat commodi voluptatibus tempore a similique debitis iste tenetur error nihil odio, maiores quibusdam praesentium cupiditate corporis facilis? Ea praesentium delectus, deleniti eaque laborum illum ullam vero dolorum? Ratione iste odit hic deserunt voluptate possimus? Voluptates consequuntur tenetur ea, doloribus soluta ducimus delectus a esse reiciendis! Repudiandae quod odit vero voluptate corrupti commodi ut amet? Illum tempora iusto commodi assumenda ea harum nobis enim maiores placeat, recusandae blanditiis soluta impedit consectetur similique ipsa id explicabo atque veniam esse officia ratione ipsum laborum suscipit quia! Laborum tempora ad vitae, possimus odio nemo tenetur officia non consequatur voluptatem ipsum corporis cum numquam perspiciatis itaque dicta quaerat doloremque veniam iure at praesentium. Veritatis, vitae maiores consequatur ullam velit, odit hic dolorum quos deleniti nisi sequi asperiores ipsam excepturi accusantium harum ratione, delectus maxime magni totam aut iure eos obcaecati fuga. Vel aliquid quidem tempore minus quas repudiandae corporis.
+        </div>
+        <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+        
+        
+        
+        <!-- Exercice 8 — Box model et inline vs block
+        
+        Crée :
+        
+        un span
+        une div
+        
+        Applique les mêmes propriétés :
+        
+        width: 200px;
+        padding: 20px;
+        margin: 20px;
+        border: 2px solid;
+        
+        Question : pourquoi les comportements sont différents ? 
+            Réponse à la question : 
+                Les comportments sont différents selon l'élément car :
+                l'élément span est de type inline par défaut, c'est-à-dire qu'il va se comporté de telle sorte à occupée uniquement les dimensions de son contenu ;
+                Contrairement à un élément div qui, lui, va toute la largeur du parent même si son contenu est court, il est de type block par défaut. -->
+        <span class="spanExo8"></span>
+        <div class="divExo8"></div>
+        <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+        
+        
+        
+        <!--  Exercice 9 — Calcul de layout
+        
+        Crée 3 colonnes côte à côte avec :
+        
+        width: 33.33%;
+        padding: 20px;
+        border: 2px solid;
+        
+        Problème : ça casse la ligne.
+        
+        Corrige avec :
+        
+        box-sizing: border-box;
+        
+        Objectif : comprendre les bugs classiques de layout -->
+        <div class="containerBoxExo9">
+            <div class="boxExo9"></div>
+            <div class="boxExo9"></div>
+            <div class="boxExo9"></div>
+        </div>
+        <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+        
+        
+        
+        <!-- Exercice 10 — Mini composant UI
+        
+        Crée une carte produit avec :
+        
+        image
+        titre
+        description
+        bouton
+        
+        Contraintes :
+        
+        espacement propre avec padding
+        séparation entre cartes avec margin
+        bordure + arrondi
+        
+        Objectif : appliquer le box model dans un cas réel  -->
+        <div class="cardExo10">
+            <div class="imgExo10"></div>
+            <div class="containerTextExo10">
+                <h1 class="titre">Sony Headphone</h1>
+                <h3 class="sous-titre">loading Noice Canceling</h3>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                <button class="btnExo10">Achetez maintenant</button>
+            </div>
+        </div>
+        <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+
+        
         <button class="btn">
             <a href="../../index.html">Retour à la nav</a>
         </button>
@@ -20,135 +238,7 @@
     </main>   
 </body>
 </html>
-<!-- Exercice 1 — Comprendre la structure
 
-Crée une div avec :
 
-largeur : 200px
-hauteur : 100px
-fond : bleu
 
- Ajoute :
 
-padding: 20px
-border: 5px solid black
-margin: 30px
-
- Question : quelle est la taille totale occupée par l’élément ?
-
-Exercice 2 — Box sizing
-
-Reprends l’exercice 1.
-
- Ajoute :
-
-box-sizing: border-box;
-
-Question : qu’est-ce qui change concrètement sur le rendu et pourquoi ?
-
-Exercice 3 — Padding asymétrique
-
-Crée un bouton (button ou div) avec :
-
-texte centré
-
-Applique :
-
-padding: 10px 30px 5px 50px;
-
-Objectif : comprendre la logique top / right / bottom / left
-
-Exercice 4 — Margin collapsing
-
-Crée deux div empilées verticalement :
-
-chacune avec margin: 50px
-
-Question : pourquoi l’espace entre les deux n’est pas 100px ?
-
-Exercice 5 — Centrage horizontal
-
-Crée une div de 300px de largeur.
-
-Centre-la horizontalement dans la page avec :
-
-margin: 0 auto;
-
-Question : pourquoi ça ne marche que dans certains cas ?
-
-Exercice 6 — Bordures avancées
-
-Crée une carte (card) avec :
-
-border: 2px solid black
-
- Ajoute :
-
-border-radius: 10px
-padding: 20px
-
-Objectif : comprendre l’impact visuel du box model sur les composants UI
-
- Exercice 7 — Débordement (overflow)
-
-Crée une div :
-
-hauteur : 100px
-contenu texte très long
-
- Teste :
-
-overflow: hidden;
-overflow: scroll;
-overflow: auto;
-
-Analyse le comportement de chaque valeur
-
-Exercice 8 — Box model et inline vs block
-
-Crée :
-
-un span
-une div
-
-Applique les mêmes propriétés :
-
-width: 200px;
-padding: 20px;
-margin: 20px;
-border: 2px solid;
-
-Question : pourquoi les comportements sont différents ?
-
-Exercice 9 — Calcul de layout
-
-Crée 3 colonnes côte à côte avec :
-
-width: 33.33%;
-padding: 20px;
-border: 2px solid;
-
-Problème : ça casse la ligne.
-
-Corrige avec :
-
-box-sizing: border-box;
-
-Objectif : comprendre les bugs classiques de layout
-
-Exercice 10 — Mini composant UI
-
-Crée une carte produit avec :
-
-image
-titre
-description
-bouton
-
-Contraintes :
-
-espacement propre avec padding
-séparation entre cartes avec margin
-bordure + arrondi
-
-Objectif : appliquer le box model dans un cas réel -->
