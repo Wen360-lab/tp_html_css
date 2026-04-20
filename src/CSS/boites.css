@@ -147,6 +147,7 @@ Leur marges vont fusionner au lieu de s'additionner */
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+    border:1px solid #6d768a;
 }
 
 .containerTextExo10 {
