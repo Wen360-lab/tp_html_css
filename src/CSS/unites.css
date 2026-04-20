@@ -1,0 +1,107 @@
+/* Exercice 1 : Différence px vs % */
+.containerExo1 {
+    width: 500px;
+    height: 400px;
+    background-color: #1efd00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.bloc1 {
+    width: 250px;
+    height: inherit;
+    background-color: #0d00fa;
+}
+
+
+.bloc2 {
+    width: 50%;
+    height: inherit;
+    background-color: #09dcc6;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+/* Exercice 2 : Utiliser em */
+body {
+    font-size: 16px;
+}
+
+p {
+    font-size: 2em;
+}
+
+.boxExo2 {
+    margin: 0 20px;
+}
+.sizeParaExo2 {
+    font-size: 1.5em;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Exercice 3 : Utiliser rem */
+body {
+    font-size: 16px;
+}
+
+.paraExo3 {
+    font-size: 2rem;
+}
+
+.boxExo2 {
+    margin: 0 20px;
+}
+.sizeParaExo3 {
+    font-size: 1.5rem;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Exercice 4 : Layout responsive avec % */
+.gridContainerExo4 {
+    width: 800px;
+    height: 500px;
+    margin: 20px;
+    gap: 10px;
+    display: flex;
+    background-color: #eeff00;
+}
+
+.column {
+    width: 33.3%;
+}
+
+.colonne1 {
+    background-color: #07a02d;
+}
+
+.colonne2 {
+    background-color: #06b3b9;
+}
+
+.colonne3 {
+    background-color: #a50f94;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+/* Exercice 5 : Hauteur avec vh */
+.sectionExo5 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #006eff;
+}
+
+.titreExo5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: antiquewhite;
+}
+/* ------------------------------------------------------------------------------------------------------- */

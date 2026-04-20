@@ -19,8 +19,91 @@
         un en width: 50%
         
         👉 Objectif : comprendre la différence entre valeur fixe et relative. -->
+        <div class="containerExo1">
+            <div class="bloc1"></div>
+            <div class="bloc2"></div>
+        </div>
         <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
         
+        
+        
+        
+        <!-- 🔹 Exercice 2 — Utiliser em
+        
+        Définis :
+        
+        body {
+            font-size: 16px;
+        }
+        
+        Puis crée un paragraphe avec :
+        
+        p {
+            font-size: 2em;
+        }
+        
+        👉 Question : quelle est la taille finale ?
+            Réponse à la question 
+                Le paragraphe fait à présent 32px, celà s'explique par le fait qu'au départ on avait définit la taille des paragraphe à 16px, puis on a dit qu'ils devraient maintenant faire 2rem soit 16px : ce qui fait 32px au total
+        👉 Ensuite imbrique un span avec font-size: 1.5em → observe l’effet cumulatif. -->
+        <div class="boxExo2">
+            <p><span class="sizeParaExo2">Paragraphe relatif à l'exercice 2</span></p>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        
+        
+        
+        
+        <!-- 🔹 Exercice 3 — Utiliser rem
+        
+        Refais l’exercice précédent mais avec rem.
+        
+        👉 Objectif : comprendre pourquoi rem est plus stable que em. -->
+        <div class="boxExo2">
+            <p class="paraExo3"><span class="sizeParaExo3">Paragraphe relatif à l'exercice 3</span></p>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        
+        
+        
+        
+        <!-- 🔹 Exercice 4 — Layout responsive avec %
+        
+        Crée une grille simple :
+        
+        un conteneur
+        3 colonnes de 33.33%
+        
+        👉 Ajoute du gap ou des marges → corrige les débordements. -->
+        <div class="gridContainerExo4">
+            <div class="column colonne1"></div>
+            <div class="column colonne2"></div>
+            <div class="column colonne3"></div>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        
+        
+        
+        
+        <!-- 🔹 Exercice 5 — Hauteur avec vh
+        
+        Crée une section fullscreen :
+        
+        section {
+        height: 100vh;
+        }
+        
+        👉 Ajoute un texte centré verticalement et horizontalement. -->
+        <section class="sectionExo5">
+            <h1 class="titreExo5">Titre Centré</h1>
+        </section>
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    
+    
+    
+        <button class="btn">
+            <a href="../../index.html">Retour à la nav</a>
+        </button>
     </main> 
 </body>
 </html>
@@ -37,47 +120,9 @@
 
 
 
-🔹 Exercice 2 — Utiliser em
 
-Définis :
+<!-- 
 
-body {
-font-size: 16px;
-}
-
-Puis crée un paragraphe avec :
-
-p {
-font-size: 2em;
-}
-
-👉 Question : quelle est la taille finale ?
-👉 Ensuite imbrique un span avec font-size: 1.5em → observe l’effet cumulatif.
-
-🔹 Exercice 3 — Utiliser rem
-
-Refais l’exercice précédent mais avec rem.
-
-👉 Objectif : comprendre pourquoi rem est plus stable que em.
-
-🔹 Exercice 4 — Layout responsive avec %
-
-Crée une grille simple :
-
-un conteneur
-3 colonnes de 33.33%
-
-👉 Ajoute du gap ou des marges → corrige les débordements.
-
-🔹 Exercice 5 — Hauteur avec vh
-
-Crée une section fullscreen :
-
-section {
-height: 100vh;
-}
-
-👉 Ajoute un texte centré verticalement et horizontalement.
 
 🔹 Exercice 6 — Largeur avec vw
 
