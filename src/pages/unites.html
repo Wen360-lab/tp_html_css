@@ -9,7 +9,6 @@
 </head>
 <body>
     <main>
-        
         <!-- 🔹 Exercice 1 — Différence px vs %
         
         Crée une div parent de 500px de largeur.
@@ -98,9 +97,102 @@
             <h1 class="titreExo5">Titre Centré</h1>
         </section>
         <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-    
-    
-    
+        
+        
+        
+        
+        <!-- 🔹 Exercice 6 — Largeur avec vw
+        
+        Crée une bannière :
+        
+        .banner {
+        width: 100vw;
+        }
+        
+        👉 Observe le scroll horizontal potentiel → corrige avec overflow. -->
+        <div class="banner">
+            <div class="profilBanner"></div>
+            <div class="textBanner">
+                <h1 class="titreBanner">Lorem ipsum dolor sit amet.</h1>
+                <p class="paraBanner">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        
+        
+        
+
+        <!-- 🔹 Exercice 7 — Mélange d’unités
+        
+        Crée une carte avec :
+        
+        padding en rem
+        largeur en %
+        border-radius en px
+        
+        👉 Objectif : comprendre quand utiliser chaque unité. -->
+        <div class="cardExo7">
+            <div class="imageCard">
+                <h3 class="titreCard">Eau Bleue</h3>
+                <P class="sous-titreCard">L'océan dans une bouteille</P>
+                <button class="btnCard">Acheter</button>
+            </div>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+       
+       
+       
+       
+        <!-- 🔹 Exercice 8 — Typographie responsive
+        
+        Crée un titre avec :
+        
+        h1 {
+            font-size: 5vw;
+        }
+        
+        👉 Teste sur différentes tailles d’écran. -->
+        <h1 class="title">Ceci est un titre</h1>
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+       
+       
+       
+       
+        <!-- 🔹 Exercice 9 — Limiter avec min / max
+        
+        Crée un texte :
+        
+        p {
+            font-size: clamp(16px, 2vw, 24px);
+        }
+        
+        👉 Objectif : comprendre les limites dynamiques. -->
+        <p class="paragraphe">Ceci est un paragragraphe de l'exercice 9 portant sur les limites dynamiques.</p>
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        
+        
+        
+        
+        <!--🔹 Exercice 10 — Cas réel (mini projet)
+        
+        Crée une carte produit responsive :
+        
+        largeur : 90% max 400px
+        padding en rem
+        image en 100%
+        texte en rem
+        bouton avec em
+        
+        👉 Objectif : structurer une UI propre et scalable.  -->
+        <div class="CardExo10">
+            <div class="textCardExo10">
+                <h3 class="titreCardExo10">Le Cacao de chez  nous.</h3>
+                <p class="description">Le cacoa le plus envoûtant de notre pays <br> découvrez une nouvelle façon de le cuisiner <br> Pâte à tartiner, poudre de cacao, succomber au délice de chez nous</p>
+                <button class="btnCardExo10">Faites votre commande</button>
+            </div>
+        </div>
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+         
         <button class="btn">
             <a href="../../index.html">Retour à la nav</a>
         </button>
@@ -121,57 +213,8 @@
 
 
 
-<!-- 
 
 
-🔹 Exercice 6 — Largeur avec vw
 
-Crée une bannière :
 
-.banner {
-width: 100vw;
-}
 
-👉 Observe le scroll horizontal potentiel → corrige avec overflow.
-
-🔹 Exercice 7 — Mélange d’unités
-
-Crée une carte avec :
-
-padding en rem
-largeur en %
-border-radius en px
-
-👉 Objectif : comprendre quand utiliser chaque unité.
-
-🔹 Exercice 8 — Typographie responsive
-
-Crée un titre avec :
-
-h1 {
-font-size: 5vw;
-}
-
-👉 Teste sur différentes tailles d’écran.
-
-🔹 Exercice 9 — Limiter avec min / max
-
-Crée un texte :
-
-p {
-font-size: clamp(16px, 2vw, 24px);
-}
-
-👉 Objectif : comprendre les limites dynamiques.
-
-🔹 Exercice 10 — Cas réel (mini projet)
-
-Crée une carte produit responsive :
-
-largeur : 90% max 400px
-padding en rem
-image en 100%
-texte en rem
-bouton avec em
-
-👉 Objectif : structurer une UI propre et scalable. -->

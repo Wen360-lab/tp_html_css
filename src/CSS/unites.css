@@ -105,3 +105,235 @@ body {
     color: antiquewhite;
 }
 /* ------------------------------------------------------------------------------------------------------- */
+
+
+/* Exercice 6 : Largeur avec vw */
+.banner {
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    height: 300px;
+    width: 100vw;
+    background: linear-gradient(to right,#ff00ea, #7904ff, rgb(127, 4, 165));
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+    position: relative;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.textBanner {
+    padding: 10px;
+    height: 100px;
+    background-color: #ffffff67;
+    backdrop-filter: blur(10px);
+    box-shadow: 0.2px 0.3px 8px black;
+    border-radius: 20px; 
+    text-align: center;   
+}
+
+.titreBanner {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: left;
+    color: #ffffff;
+    margin: 0;
+}
+
+.paraBanner {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: justify;
+    margin: 0 0;
+}
+
+.profilBanner {
+    position: relative;
+    right: 70px;
+    background-image: url('../Assets/images/photoProfil.jpg');
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:10px solid rgb(255, 255, 255);
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+/* Exercice 7 : Mélange d’unités */
+.cardExo7 {
+    margin: 60px auto;
+    width: 35%;
+    height: 500px;
+    background: linear-gradient(25deg, #0f2f8e, #7c9adc);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 0.5rem;
+}
+
+.imageCard {
+    background-image: url('../Assets/images/parfumBlue.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+
+.titreCard {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.525);
+
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+.sous-titreCard {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.459);
+    
+    margin: 0;
+    padding: 0 20px;
+
+}
+
+.btnCard {
+    background-color: #0f78f8;
+    box-shadow: 0.2px 0.5px 4px black;
+    border-radius: 15px;
+    
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    
+    margin: 25px 0;
+    padding: 8px 30px; 
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.btnCard:hover {
+    background-color: #ffffff;
+    color: #006eff;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+/* Exercice 8 : Typographie responsive */
+.title {
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #07a02d;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+/* Exercice 9 : comprendre les limites dynamiques */
+.paragraphe {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(16px, 2vw, 24px);
+}
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+/* Exercice 10 : Cas réel (mini projet) */
+.CardExo10 {
+    width: 90%;
+    max-width: 400px;
+    height: 50vh;
+    background-image: url('../Assets/images/cacao.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3.5px solid #06b3b9;
+    border-radius: 16px;
+    margin: 10px auto;
+
+    padding: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textCardExo10 {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #3735351c;
+    backdrop-filter: blur(10px);
+    border: 0.1px solid #ffffff;
+
+    padding: 1.5rem;
+    border-radius: 16px;
+
+}
+
+.titreCardExo10 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.525);
+
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+.description {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.796);
+
+    margin: 30px 0;
+    padding: 0 20px;
+}
+
+.btnCardExo10 {
+    padding: 0.5em 2em;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #D6FAF0;
+    background-color: #87BFB0;
+    border: 0.2px solid white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btnCardExo10:hover {
+    background-color: #D6FAF0;
+    color: #87BFB0;
+}
+/* ------------------------------------------------------------------------------------------------------- */
