@@ -197,3 +197,342 @@
     background-color: #2b0227;
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Exercice 6 : Align-items vs Align-content */
+.containerExo6 {
+    display: flex;
+    /* align-content: baseline;
+    align-content: center;
+    align-content: flex-start;
+    align-content: normal;
+    align-items: flex-end; */
+    /* align-content: flex-start;
+    align-items: flex-end;
+    align-items: normal;
+    align-items: baseline; */
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    background-color: #02ff28;
+}
+
+.blocExo6 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #029504;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Exercice 7 : Layout type dashboard */
+.dashboard {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(45deg,#00B3A6,#6ee8ab);
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+.sidebar {
+    width: 20%;
+    height: 90%;
+    backdrop-filter: blur(10px);
+    background-color: #ffffff62;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-shadow: 0.1px 0.2px 5px black;
+}
+
+.navigation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.titre {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+.navigation li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #05615b;
+    cursor: pointer;
+    transition: 0.3ms ease;
+}
+
+.navigation li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.boxInfo {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 250pxx;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.cerclePhoto {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #046ce2;
+}
+
+.btndash {
+    margin: 30px 0;
+    padding: 8px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #1aac79;
+    font-weight: bolder;
+    border-radius: 15px;
+    border: 0.2px solid rgb(72, 207, 207);
+    box-shadow: 0.1px 0.1px 3px black;
+    cursor: pointer;
+    transition: 5ms ease;
+}
+
+.btndash:hover {
+    color: white;
+    background-color: #1aac79;
+}
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #057069;
+}
+
+.statut {
+    font-size: 12px;
+    color: #02ff28;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+    margin-top: 20px;
+}
+
+.sectionLeft {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: inherit;
+}
+
+.card {
+    height: 200px;
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0.1px 0.2px 5px black;
+    
+}
+
+.titreCard {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin: 0 0 20px 0;
+    color: #00B3A6;
+}
+
+.sous-titreCard {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0 0 25px 0;
+    color: #001311;
+}
+
+.boutonCard {
+    display: flex;
+    gap: 20px;
+}
+
+.btnCard {
+    padding: 10Px 20Px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0.4px solid gray;
+    cursor: pointer;
+    transition: 0.4ms ease;
+}
+
+.btnCard1 {
+    color: #00B3A6;
+}
+
+.btnCard2 {
+    color: #fdffff;
+    background-color: #00B3A6;
+}
+
+.btnCard2:hover {
+    color: #00B3A6;
+    background-color: #ecf3f1;
+}
+
+.btnCard1:hover {
+    color: #ffffff;
+    background-color: #00B3A6;
+}
+
+.boites {
+    display: flex;
+    margin: 30px 0;
+    gap: 30px;
+}
+
+.element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 80Px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0.1px 0.2px 5px black;
+    gap: 12px;
+    font-size: 19px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 10px;
+}
+
+.indice {
+    width: 45px;
+    height: 45px;
+    background-color: #7fc295;
+    border-radius: 5px;
+}
+
+.sectionRight {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #61c7b6;
+    margin: 20px 20px;
+    border-radius: 12px;
+    box-shadow: 0.1px 0.2px 5px black;
+}
+
+.titreSectionRight {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: white;
+}
+
+.containerCardFin{
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly; 
+    height: 270px;
+    background-image: url('../Assets/images/graph.jpeg');
+}
+
+.cardFin {
+    width: 150px;
+    height: inherit;
+}
+
+.cardFinB {
+    background-color: #0ba3a844;
+}
+
+.cardFinA {
+    background-color: #1ac1c767;
+}
+
+.containerRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin: 25px 0;
+}
+
+.activity {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    width: 300px; 
+    height: 40px;
+    background-color: #fafafa;
+    padding: 10px 0 ;
+    border-radius: 12px;
+    gap: 20px;
+} 
+
+.titreDescript {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #e0e9e6;
+    margin: 0 0 0 20px;
+}
+
+.space {
+    width: 45px;
+    height: 45px;
+    background-color: #29a9ad;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.description {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: #008ebd;
+    font-weight: bolder;
+
+}
+
+.statut2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #00B3A6;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */

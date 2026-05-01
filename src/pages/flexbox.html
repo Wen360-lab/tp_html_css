@@ -9,7 +9,7 @@
 </head>
 <body>
     <main>
-        <!-- <!-- 🔹 Exercice 1 — Centrage parfait
+        <!-- 🔹 Exercice 1 — Centrage parfait
         
         Objectif : maîtriser les bases
         
@@ -124,14 +124,169 @@
             <div class="blocExo5 elmt4"></div>
         </div>
         <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-    
-    
-    
-    
-    
-    
-    
-    
+        
+        
+        
+        
+        <!--🔹 Exercice 6 — Align-items vs Align-content
+        
+        Objectif : ne plus confondre
+        
+        Crée plusieurs lignes de blocs avec flex-wrap.
+        
+        👉 Contraintes :
+        
+        Hauteur du container importante (ex: 400px)
+        Tester :
+        align-items
+        align-content
+        
+        👉 But : comprendre leur impact réel -->
+        <div class="containerExo6">
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+            <div class="blocExo6"></div>
+        </div>
+        <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        
+        
+        
+
+        <!-- 🔹 Exercice 7 — Layout type dashboard
+        
+        Objectif : cas réel
+        
+        Construis une interface avec :
+        
+        sidebar à gauche
+        contenu principal à droite
+        
+        👉 Contraintes :
+        
+        Sidebar largeur fixe (ex: 250px)
+        Contenu prend tout le reste -->
+        <section class="dashboard">
+            <aside class="sidebar">
+                <nav class="navigation">
+                    <h1 class="titre">Dashboard</h1>
+                    <hr>
+                    <ul>
+                        <li><a href="#">Acceuil</a></li>
+                        <li><a href="#">Liens</a></li>
+                        <li><a href="#">Produits</a></li>
+                        <li><a href="#">À propos</a></li>
+                        <li><a href="#">Contacts</a></li>   
+                    </ul>
+                </nav>
+                <div class="boxInfo">
+                    <span class="cerclePhoto"></span>
+                    <p class="info">Anabel Elisabeth <br> <span class="statut">En ligne</span></p>
+                </div>
+                <button class="btndash">Se désinscrire</button>
+            </aside>
+
+            <div class="main">
+                <div class="sectionLeft">
+
+                    <div class="card">
+                        <h1 class="titreCard">Bon retour parmi nous Elisabeth</h1>
+                        <p class="sous-titreCard">Votre profil est complété à 25% | Pensez à ajouter des informations sur vous.</p>
+                        <div class="boutonCard">
+                            <button class="btnCard btnCard1">Ajouter des infos</button>
+                            <button class="btnCard btnCard2">Prévisualiser le profil</button>
+                        </div>
+                    </div>
+                    
+                    <div class="boites">
+                        <div class="element">
+                            <span class="indice"></span>
+                            <p>4 <br> Team</p>
+                        </div>
+                        <div class="element">
+                            <span class="indice"></span>
+                            <p>45 <br> users</p>
+                        </div>
+                        <div class="element">
+                            <span class="indice"></span>
+                            <p>3 <br> talks</p>
+                        </div>
+                        <div class="element">
+                            <span class="indice"></span>
+                            <p>15 <br> meeting</p>
+                        </div>
+                        
+                    </div>
+                    <div class="containerCardFin">
+                        <div class=" cardFin cardFinA"></div>
+                        <div class="cardFin cardFinB"></div>
+                        <div class="cardFin cardFinA"></div>
+                        <div class="cardFin cardFinB"></div>
+                        <div class="cardFin cardFinA"></div>
+                    </div>
+                </div>
+                
+                    
+                
+            </div>
+            <div class="sectionRight">
+                <h2 class="titreSectionRight">Mes activités</h2>
+                <div class="containerRight">
+                    <p class="titreDescript">Messages directes</p>
+                    <div class="activity">
+                        <span class="space"></span>
+                        <p class="description">Messages non vérifiés<br> <span class="statut2">4:00pm-4:30pm</span></p>  
+                    </div>
+                    
+                    <div class="activity">
+                        <span class="space"></span>
+                        <p class="description">Discussion en direct<br> <span class="statut2">4:00pm-4:30pm</span></p>
+                    </div>
+                    
+                    <p class="titreDescript">Rencontres directes</p>
+                    <div class="activity">
+                        <span class="space"></span>
+                        <p class="description">Relation privée<br> <span class="statut2">1:00am-2:30am</span></p>
+                    </div>
+                    <div class="activity">
+                        <span class="space"></span>
+                        <p class="description">Groupe de parole<br> <span class="statut2">1:00am-2:30am</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        
     
     
     
@@ -167,35 +322,8 @@
 
 
 
-<!-- 🔹 Exercice 6 — Align-items vs Align-content
 
-Objectif : ne plus confondre
-
-Crée plusieurs lignes de blocs avec flex-wrap.
-
-👉 Contraintes :
-
-Hauteur du container importante (ex: 400px)
-Tester :
-align-items
-align-content
-
-👉 But : comprendre leur impact réel
-
-🔹 Exercice 7 — Layout type dashboard
-
-Objectif : cas réel
-
-Construis une interface avec :
-
-sidebar à gauche
-contenu principal à droite
-
-👉 Contraintes :
-
-Sidebar largeur fixe (ex: 250px)
-Contenu prend tout le reste
-🔹 Exercice 8 — Ordre des éléments
+<!-- 🔹 Exercice 8 — Ordre des éléments
 
 Objectif : utiliser order
 
@@ -205,9 +333,9 @@ Crée 5 blocs numérotés.
 
 Modifier l’ordre visuel sans changer le HTML
 Mettre le bloc 5 en premier
-🔹 Exercice 9 — Flex-grow
+🔹 Exercice 9 — Flex-grow -->
 
-Objectif : gestion de l’espace
+<!-- Objectif : gestion de l’espace
 
 Crée 3 blocs.
 
@@ -229,4 +357,4 @@ footer
 
 Desktop : 3 colonnes
 Mobile : 1 colonne
-Utiliser uniquement Flexbox (pas de Grid) --> 
+Utiliser uniquement Flexbox (pas de Grid)  -->
